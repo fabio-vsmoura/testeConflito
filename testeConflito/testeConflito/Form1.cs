@@ -10,8 +10,11 @@ namespace testeConflito
         private void button1_Click(object sender, EventArgs e)
         {
             string nome = "Lendy";
+            string texto = "Vamos praticar mais";
             MessageBox.Show("Bem-vindo ao GIT HUB");
-            MessageBox.Show($"Olá {nome}");
+            MessageBox.Show($"Olï¿½ {nome}");
+            MessageBox.Show("E ai " + texto);
+
         }
     }
 }

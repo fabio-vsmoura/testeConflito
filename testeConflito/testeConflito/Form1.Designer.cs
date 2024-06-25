@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            bt_juior = new Button();
             button2 = new Button();
             SuspendLayout();
             // 
@@ -42,20 +43,28 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // button2
-            // 
+
+            bt_juior.Location = new Point(650, 230);
+            bt_juior.Name = "bt_juior";
+            bt_juior.Size = new Size(75, 23);
+            bt_juior.TabIndex = 1;
+            bt_juior.Text = "junior";
+            bt_juior.UseVisualStyleBackColor = true;
+
             button2.Location = new Point(78, 215);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 1;
             button2.Text = "Botão dev";
             button2.UseVisualStyleBackColor = true;
+
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(bt_juior);
             Controls.Add(button2);
             Controls.Add(button1);
             Name = "Form1";
@@ -66,6 +75,10 @@
         #endregion
 
         private Button button1;
+
+        private Button bt_juior;
+
         private Button button2;
+
     }
 }
